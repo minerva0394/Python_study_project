@@ -12,4 +12,4 @@ str_list = str_input.split(" ")
 str_new = list(reversed(str_list))
 for i in str_new:
     str_tmp = str_tmp + i + " "
-print(str_tmp)
+print("逆序后" + str_tmp)
