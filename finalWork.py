@@ -101,7 +101,7 @@ def main():
     # all_info_list保存了所有排名数据：排名、名称、总分,all_info_list[][]获取数据
     all_info_list = getData(url)
     # print(all_info_list[18][1])
-    dbpath = '排名.db'
+    dbpath = 'ranking.db'
     # 保存数据至数据库
     saveDatadb(dbpath, all_info_list)
     # 数据可视化
